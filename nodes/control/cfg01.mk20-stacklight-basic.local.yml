@@ -30,3 +30,7 @@ parameters:
     system:
       name: cfg01
       domain: mk20-stacklight-basic.local
+  reclass:
+    storage:
+      data_source:
+        engine: local
