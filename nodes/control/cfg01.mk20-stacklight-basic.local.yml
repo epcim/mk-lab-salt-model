@@ -34,3 +34,10 @@ parameters:
     storage:
       data_source:
         engine: local
+  salt:
+    master:
+      environment:
+        dev:
+          formula:
+            rabbitmq:
+              revision: mos_compat
